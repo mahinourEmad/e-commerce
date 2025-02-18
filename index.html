@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Hamburger Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/logo.png" alt="error_logo" width="125px">
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav id="navLinks">
+                    <ul>
+                        <li><a href="home">Home</a></li>
+                        <li><a href="products">Product</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="account">Account</a></li>
+                    </ul>
+                    <img src="image/cart.png" width="20px" alt="Cart">
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h1>Give your workout <br>a new style!</h1>
+                    <p>Success isn't always about greatness. It's about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
+                    <a href="" class="button">Explore Now &#8594;</a>
+                </div>
+                <div class="col-1">
+                    <img src="image/image1.png" alt="Workout">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Categories -->
+    <div class="categories">
+        <div class="small_container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="image/category-1.jpg" alt="Category 1">
+                </div>
+                <div class="col-2">
+                    <img src="image/category-2.jpg" alt="Category 2">
+                </div>
+                <div class="col-2">
+                    <img src="image/category-3.jpg" alt="Category 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Toggle Side Navigation
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
