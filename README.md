@@ -1,2 +1,3 @@
 # e-commerce
-it is an HTML and CSS project just for practicing on CSS and HTML
+Project Objective:
+The primary objective of this project is to learn and practice the core web development technologies, including HTML, CSS, and JavaScript, while incorporating media queries to ensure responsiveness. The project involves creating a responsive homepage website where the navigation bar adapts to different screen sizes. Specifically, when the screen size is smaller than 768px, the navbar transforms into a sidebar that can be toggled by clicking on a hamburger icon. This approach enhances user experience on mobile and tablet devices by optimizing the layout and functionality for smaller screens.
